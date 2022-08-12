@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW 1 small</title>
+</head>
+<body style="font-family: 'Inter';">
+    <h1 style="font-weight: 600; font-size: 24px;">
+        HTML
+    </h1>
+    <div style="font-weight: 400;font-size: 12px;line-height: 15px;">
+        <p>
+            HTML (HyperText Markup Language - "мова гіпертекстової розмітки") - найбільш базовий будівельний блок
+            <a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82">Інтернету</a>.
+            Він визначає зміст та структуру <a href="http://www.web-content.com.ua/">веб-контенту</a>. Під гіпертекстом ("hypertext")
+            розуміються посилання, які з'єднують веб-сторінки один з одним або в межах одного
+            <a href="https://uk.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1%D1%81%D0%B0%D0%B9%D1%82">веб-сайту</a> або між веб-сайтами. Посилання
+            є фундаментальним аспектом Інтернету.
+        </p>
+        <p>
+            Інші технології, крім HTML, зазвичай використовуються для опису зовнішнього вигляду/уявлення (<a href="https://uk.wikipedia.org/wiki/CSS">CSS</a>)
+            або функціональності/поведінки (<a href="https://uk.wikipedia.org/wiki/JavaScript">JavaScript</a>) веб-сторінки.
+        </p>    
+        <p>
+            <b>HTML-документ</b> - це звичайний текстовий документ, може бути створений як у звичайному текстовому редакторі (<i>Блокнот</i>) , так і в
+            спеціалізованому з підсвічуванням коду (<i>Notepad++, Visual Studio Code</i> і т.п.) . HTML-документ має розширення .html.
+        </p>     
+        <p>
+            Завантажуючи контент в Інтернет і пов'язуючи його зі сторінками, створеними іншими людьми, ви стаєте активним учасником Всесвітньої
+            мережі.  HTML використовує розмітку ("<a href="https://en.wikipedia.org/wiki/Markup_language">markup</a>") для відображення тексту, зображень та 
+            іншого контенту у веб-браузері.
+        </p>
+        <p> 
+            <a href="https://webdoky.org/uk/docs/Web/HTML/">HTML-розмітка</a> включає в себе спеціальні 
+            "<i><a href="https://uk.wikipedia.org/wiki/%D0%95%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8_HTML">елементи</a></i>", такі як
+            <a href="https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%B3_(%D0%BC%D0%BE%D0%B2%D0%B0_%D1%80%D0%BE%D0%B7%D0%BC%D1%96%D1%82%D0%BA%D0%B8)">теги</a> 
+            та <a href="https://uk.wikipedia.org/wiki/%D0%90%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8_HTML">атрибути</a>.
+        </p>
+    </div>
+    <div style="font-weight: 600;">
+        <b>
+            <h2 style="font-size: 16px; line-height: 19px;">
+                Структура веб-сторінки
+            </h2>
+            <p style="font-size: 12px; line-height: 15px;">
+                HTML-документ складається з двох розділів – заголовка – вміст елемента <i>&lt;head&gt;</i> (технічна частина, видима лише розробнику)
+                та змістовної частини – вміст <i>&lt;body&gt;</i> (відображається на екрані користувача).
+            </p>
+        </b>
+    </div>
+    <h2 style="font-style: italic; font-size: 16px; line-height: 19px;">
+        Взаємозв’язки між вкладеними елементами поділяються на батьківські, дочірні та сестринські:
+    </h2>
+    <div style="font-weight: 600; font-size: 12px; font-style: normal; line-height: 15px;">
+        <p>
+            <b>Предок</b> - <i>елемент, який містить інші елементи. Предком для всіх елементів є &lt;html&gt;. У той же час елемент &lt;body&gt; 
+            є предком для всіх елементів, що містяться в ньому: &lt;header&gt;, &lt;nav&gt;, &lt;h1&gt; і т.д.</i>
+        </p>
+        <p>
+            <b>Нащадок</b> - <i>елемент, розташований усередині одного або більше типів елементів. Наприклад, &lt;body&gt; є нащадком &lt;html&gt;, 
+            а елемент &lt;header&gt; є нащадком одночасно &lt;body&gt; і &lt;html&gt;.</i>
+        </p>
+        <p>
+            <b>Батьківський елемент</b> - <i>елемент, пов'язаний з іншими елементами нижчого рівня і вище за них.</i>
+        </p>        
+        <p>
+           <b>Дочірній елемент</b>  — <i>елемент, що безпосередньо підпорядкований іншому елементу вищого рівня.</i>
+        </p>   
+        <p>
+            <b>Сестринський елемент</b> — <i>елемент, що має спільний батьківський елемент із розглянутим, так звані елементи одного рівня,
+            наприклад &lt;h1&gt;, &lt;div&gt; і &lt;ul&gt; або &lt;meta&gt;, &lt;link&gt; і &lt;title&gt;.</i>
+        </p>      
+    </div>
+    <br>
+    <div style="text-align: left;">
+        <h3 style="font-style: italic; font-weight: 600; font-size: 12px; line-height: 15px;">
+            Примітка
+        </h3>
+        <p>
+            При виконанні цього Д/З використовуйте теги &lt;p&gt;, &lt;br&gt;, <br>
+            &lt;span&gt;, &lt;h1&gt;, &lt;h2&gt;... <br>
+            Всі слова які виглядають як <a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82">Інтернету</a> мають бути посиланнями, <br>
+            тобто вписані в тег &lt;a&gt; і прописано посилання на статтю у <br>
+            вікіпедії з відповідною інформацією.
+        </p>
+    </div>
+    <div style="position: absolute; left: 369px;
+
+                font-weight: 400; font-size: 11px;
+                line-height: 13px;
+
+                background: linear-gradient(180deg, #000000 0%, #1500FF 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;">
+        <p >
+            Аби скопіювати макет до себе, щоб мати змогу редагувати <br>
+            виконайте наступні дії: <br>
+            &bull; натисніть на стрілку біля назви роботи зверху <br>
+            &bull; оберіть пункт Duplicate <br>
+            &bull; після провантаження відкрийте у модалці знизу екрану, <br>
+            натисканням Open, копію макету. <br>
+            
+        </p>
+        <p style="text-align: right;">УСПІХУ У ВИКОНАННІ!</p>
+        <img src="./img/LOGO-TEXT.jpg" alt="LOGO-TEXT">
+    </div>
+</body>
+</html>
